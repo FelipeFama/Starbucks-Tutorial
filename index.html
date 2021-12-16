@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Starbucks Coffee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="assets/logo.png" class="logo" /></a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+
+      <div class="content">
+        <div class="textBox">
+          <h1>It's not just Coffee<br />It's <span>StarBucks</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            aut. Ab praesentium autem deleniti nostrum, porro voluptatibus
+            voluptas amet neque quas doloremque, sit, vitae rerum debitis
+            repellendus distinctio aliquid itaque!
+          </p>
+          <button>Learn More</button>
+        </div>
+        <div class="imgBox">
+          <img src="assets/img1.png" class="starbucks" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="/assets/thumb1.png"
+            onclick="imgSlider('assets/img1.png');changeCircleColor('#017143')"
+          />
+        </li>
+        <li>
+          <img
+            src="/assets/thumb2.png"
+            onclick="imgSlider('assets/img2.png');changeCircleColor('#eb7495')"
+          />
+        </li>
+        <li>
+          <img
+            src="/assets/thumb3.png"
+            onclick="imgSlider('assets/img3.png');changeCircleColor('#d752b1')"
+          />
+        </li>
+      </ul>
+      <ul class="socialMedia">
+        <li>
+          <a href="#"><img src="/assets/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/assets/instagram.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/assets/twitter.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <script src="js/index.js"></script>
+  </body>
+</html>
