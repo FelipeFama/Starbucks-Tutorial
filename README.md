@@ -1,2 +1,2 @@
 # Starbucks Landing Page
- Starbucks clone made with html, css and javascript.
+ Starbucks landing page clone made with html, css and javascript.
